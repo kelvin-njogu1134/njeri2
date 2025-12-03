@@ -1,0 +1,111 @@
+body, html {
+  background-color: #008080; /* Teal background */
+  color: white;
+  min-height: 100%;
+}
+
+/* Navbar links including dropdown toggles */
+.navbar-nav .nav-link {
+  font-weight: 700;      /* Bold */
+  font-size: 1.2rem;     /* Increase font size */
+}
+
+/* Dropdown menu items */
+.navbar-nav .dropdown-menu .dropdown-item {
+  font-weight: 600;      /* Slightly bold */
+  font-size: 1rem;       /* Slightly bigger */
+}
+
+/* Optional: hover effect for dropdown items */
+.navbar-nav .dropdown-menu .dropdown-item:hover {
+  background-color: #009999;  /* Teal highlight on hover */
+  color: white;
+}
+
+.navbar, .dropdown-menu {
+  background-color: #008080; /* Navbar same teal */
+}
+
+/* Container for all story cards */
+/* Container for all story cards */
+.story-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px; /* space between cards */
+  max-width: 700px; /* reduce container width */
+  margin: 0 auto;   /* center container */
+}
+
+/* Individual story card */
+.story-card {
+  display: flex;
+  align-items: center;
+  background-color: #006666; /* Dark teal */
+  color: white;
+  padding: 10px 15px;
+  border-radius: 8px;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+/* Hover effect */
+.story-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+/* Story image */
+.story-card img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-right: 15px;
+  
+}
+
+/* Story content (title + button) */
+.story-card .story-content {
+  flex: 1;
+}
+
+/* Story title */
+.story-card .story-content h5 {
+  margin: 0 0 5px 0;
+}
+
+/* Read More button */
+.story-card .story-content a.btn {
+  background-color: #00b3b3; /* lighter teal */
+  color: white;
+  padding: 5px 12px;
+  font-size: 0.9rem;
+  text-decoration: none;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.story-card .story-content a.btn:hover {
+  background-color: #009999;
+}
+.story-card .story-content p {
+  margin: 5px 0 10px 0;
+  font-size: 0.9rem;
+  color: #e0f7f7; /* lighter teal for contrast */
+}
+header h1{
+font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 50px;
+}
+header h1 span{
+    color: red;
+}
+header p{
+    font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 100px;
+}
